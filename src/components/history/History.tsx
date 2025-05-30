@@ -16,7 +16,7 @@ const History = () => {
   return (
     <div className="flex items-center flex-col gap-[40px] mt-[60px] mx-auto w-fit">
         <h2 className="font-[circularStd] text-[30px] sm:text-[40px] md:text-[50x] text-center font-bold">Recent Foods</h2>
-        <div className="flex flex-col-reverse sm:flex-row-reverse flex-wrap items-center justify-center gap-[0px] sm:gap-[40px] mx-[0px] mb-[60px]">
+        <div className="flex flex-col-reverse sm:flex-row-reverse flex-wrap items-center justify-center gap-[40px] mx-[0px] mb-[60px]">
         {
             (foods) ? foods.map((food: storageFoodType, i: number) => 
                 <div key={i} className="flex items-center justify-center w-[280px] h-[280px] rounded-[20px]">
